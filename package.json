@@ -1,0 +1,15 @@
+{
+  "name": "app-name",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@aragon/client": "^1.1.0",
+    "@aragon/os": "^4.0.1"
+  },
+  "devDependencies": {
+    "@aragon/cli": "^5.4.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "scripts": {
+  }
+}
