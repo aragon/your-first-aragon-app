@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
+    "@aragon/api": "^1.1.0",
     "@aragon/client": "^1.1.0",
     "@aragon/os": "^4.0.1"
   },
