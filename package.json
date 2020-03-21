@@ -1,17 +1,22 @@
 {
-  "name": "app-name",
-  "version": "1.0.0",
-  "description": "",
+  "name": "placeholder-app-name",
+  "version": "0.0.1",
+  "description": "placeholder-app-description",
+  "scripts": {
+    "postinstall": "npm run build-app",
+    "build-app": "cd app && npm install && cd ..",
+    "compile": "buidler compile --force",
+    "start": "buidler start"
+  },
   "dependencies": {
-    "@aragon/api": "^1.1.0",
-    "@aragon/client": "^1.1.0",
-    "@aragon/os": "^4.0.1"
+    "@aragon/os": "^4.4.0"
   },
   "devDependencies": {
-    "@aragon/cli": "^7.0.3",
-    "@babel/polyfill": "^7.2.5",
-    "parcel-bundler": "^1.11.0",
-    "truffle": "^4.1.14"
-  },
-  "scripts": {}
+    "@aragon/buidler-aragon": "^0.1.0",
+    "@nomiclabs/buidler": "^1.0.2",
+    "@nomiclabs/buidler-truffle5": "^1.1.2",
+    "@nomiclabs/buidler-web3": "^1.1.2",
+    "bignumber.js": "^9.0.0",
+    "web3": "^1.2.6"
+  }
 }
