@@ -3,3 +3,4 @@ artifacts
 .cache
 cache
 dist
+package-lock.json

@@ -1,0 +1,6 @@
+{
+  "name": "Counter",
+  "description": "My first Aragon app",
+  "script": "/script.js",
+  "start_url": "/index.html"
+}
