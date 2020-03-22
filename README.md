@@ -33,7 +33,7 @@ root
     - `index.js`: Aragon app entry point.
     - `script.sol`: Aragon app background script.
   - [**package.json**](https://docs.npmjs.com/creating-a-package-json-file): Frontend npm configuration file.
-- **contracts**: Smart Constracts folder.
+- **contracts**: Smart Contracts folder.
   - `CounterApp.sol`: Aragon app contract.
 - **scripts**: Scripts folder.
   - `buidler-hooks.js`: Buidler script hook.
